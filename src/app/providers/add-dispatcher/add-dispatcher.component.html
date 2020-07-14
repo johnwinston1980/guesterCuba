@@ -1,0 +1,56 @@
+<div class="container">
+
+    <div class="exchange">
+        <mat-form-field disabled>
+            <mat-label>Envía USD</mat-label>
+            <textarea disabled matInput type="number" [(ngModel)]="send" rows="1"></textarea>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Recive CUC</mat-label>
+            <textarea disabled matInput type="number" [(ngModel)]="receive" rows="1"></textarea>
+        </mat-form-field>
+    </div>
+
+    <mat-form-field>
+        <mat-label>Cambio</mat-label>
+        <input matInput [(ngModel)]="exchangeRate" type="number" (change)="receive = 100 * (exchangeRate / 100)" required>
+        <!--<mat-error *ngIf="email.value !== '' && email.untouched && email.invalid">Entre un email válido</mat-error>-->
+    </mat-form-field>
+
+    <form [formGroup]="dispatcherForm" (ngSubmit)="onSubmit()">
+
+        <mat-form-field>
+            <mat-label>Provincia</mat-label>
+            <mat-select formControlName="prov" required (selectionChange)="onChangeofProvince($event)">
+                <mat-option>--</mat-option>
+                <mat-option *ngFor="let province of provinces; let i = index" [ngValue]="province.name" [value]="i">
+                    {{province.name}}
+                </mat-option>
+            </mat-select>
+            <!--<mat-error *ngIf="providerForm.hasError('required')">Seleccione una provincia</mat-error>-->
+            <!--<mat-hint>{{animalControl.value?.sound}}</mat-hint>-->
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Municipio</mat-label>
+            <mat-select formControlName="town" required>
+                <mat-option>--</mat-option>
+                <mat-option *ngFor="let town of towns; let i = index" [ngValue]="town.name" [value]="i">
+                    {{town.name}}
+                </mat-option>
+            </mat-select>
+            <!--<mat-error *ngIf="providerForm.hasError('required')">Seleccione una provincia</mat-error>-->
+            <!--<mat-hint>{{animalControl.value?.sound}}</mat-hint>-->
+        </mat-form-field>
+
+
+        <mat-form-field>
+            <mat-label>email</mat-label>
+            <input matInput formControlName="email" type="email" required>
+            <!--<mat-error *ngIf="email.value !== '' && email.untouched && email.invalid">Entre un email válido</mat-error>-->
+        </mat-form-field>
+
+        <button type="submit" mat-raised-button color="primary" [disabled]="!dispatcherForm.valid">Agregar</button>
+    </form>
+
+</div>

@@ -1,0 +1,263 @@
+{
+    "provinces": [{
+            "municipios": [{
+                    "name": "Consolación del Sur",
+                    "id": "consolaciondelsur"
+                },
+                {
+                    "name": "Guane",
+                    "id": "guane"
+                },
+                {
+                    "name": "La Palma",
+                    "id": "lapalma"
+                },
+                {
+                    "name": "Los Palacios",
+                    "id": "lospalacios"
+                },
+                {
+                    "name": "Mantua",
+                    "id": "mantua"
+                },
+                {
+                    "name": "Minas de Matahambre",
+                    "id": "minasdematahambre"
+                },
+                {
+                    "name": "Pinar del Río",
+                    "id": "pinardelrio"
+                },
+                {
+                    "name": "San Juan y Martínez",
+                    "id": "sanjuanymartinez"
+                },
+                {
+                    "name": "San Luis",
+                    "id": "sanluis"
+                },
+                {
+                    "name": "Sandino",
+                    "id": "sandino"
+                },
+                {
+                    "name": "Viñales",
+                    "id": "vinales"
+                }
+            ],
+            "name": "Pinar del Río",
+            "id": "pinardelrio"
+        },
+        {
+            "municipios": [{
+                    "name": "Mariel",
+                    "id": "mariel"
+                },
+                {
+                    "name": "Guanajay",
+                    "id": "guanajay"
+                },
+                {
+                    "name": "Caimito",
+                    "id": "caimito"
+                },
+                {
+                    "name": "Bauta",
+                    "id": "bauta"
+                },
+                {
+                    "name": "San Antonio de los Baños",
+                    "id": "sanantoniodelosbanos"
+                },
+                {
+                    "name": "Güira de Melena",
+                    "id": "guirademelena"
+                },
+                {
+                    "name": "Alquízar",
+                    "id": "alquizar"
+                },
+                {
+                    "name": "Artemisa",
+                    "id": "artemisa"
+                },
+                {
+                    "name": "Bahía Honda",
+                    "id": "bahiahonda"
+                },
+                {
+                    "name": "Candelaria",
+                    "id": "candelaria"
+                },
+                {
+                    "name": "San Cristóbal",
+                    "id": "sancristobal"
+                }
+            ],
+            "name": "Artemisa",
+            "id": "artemisa"
+        },
+        {
+            "name": "La Habana",
+            "id": "lahabana"
+        },
+        {
+            "name": "Mayabeque",
+            "id": "mayabeque"
+        },
+        {
+            "name": "Matanzas",
+            "id": "matanzas"
+        },
+        {
+            "name": "Cienfuegos",
+            "id": "cienfuegos"
+        },
+        {
+            "name": "Villa Clara",
+            "id": "villaclara"
+        },
+        {
+            "name": "Sancti Spíritus",
+            "id": "sanctispiritus"
+        },
+        {
+            "name": "Ciego de Ávila",
+            "id": "ciegodeavila"
+        },
+        {
+            "municipios": [{
+                    "name": "Camagüey",
+                    "id": "camaguey"
+                },
+                {
+                    "name": "Guáimaro",
+                    "id": "guaimaro"
+                },
+                {
+                    "name": "Nuevitas",
+                    "id": "nuevitas"
+                },
+                {
+                    "name": "Céspedes",
+                    "id": "cespedes"
+                },
+                {
+                    "name": "Jimaguayú",
+                    "id": "jimaguayu"
+                },
+                {
+                    "name": "Sibanicú",
+                    "id": "sibanicu"
+                },
+                {
+                    "name": "Esmeralda",
+                    "id": "esmeralda"
+                },
+                {
+                    "name": "Minas",
+                    "id": "minas"
+                },
+                {
+                    "name": "Sierra de Cubitas",
+                    "id": "sierradecubitas"
+                },
+                {
+                    "name": "Florida",
+                    "id": "florida"
+                },
+                {
+                    "name": "Najasa",
+                    "id": "najasa"
+                },
+                {
+                    "name": "Vertientes",
+                    "id": "vertientes"
+                },
+                {
+                    "name": "Santa Cruz del Sur",
+                    "id": "santacruzdelsur"
+                }
+            ],
+            "name": "Camagüey",
+            "id": "camaguey"
+        },
+        {
+            "name": "Las Tunas",
+            "id": "lastunas"
+        },
+        {
+            "name": "Granma",
+            "id": "granma"
+        },
+        {
+            "municipios": [{
+                    "name": "Antilla",
+                    "id": "antilla"
+                },
+                {
+                    "name": "Báguanos",
+                    "id": "baguanos"
+                },
+                {
+                    "name": "Banes",
+                    "id": "banes"
+                },
+                {
+                    "name": "Cacocum",
+                    "id": "cacocum"
+                },
+                {
+                    "name": "Calixto García",
+                    "id": "calixtogarcia"
+                },
+                {
+                    "name": "Cueto",
+                    "id": "cueto"
+                },
+                {
+                    "name": "Frank País",
+                    "id": "frankpais"
+                },
+                {
+                    "name": "Gibara",
+                    "id": "gibara"
+                },
+                {
+                    "name": "Holguín",
+                    "id": "holguin"
+                },
+                {
+                    "name": "Mayarí",
+                    "id": "mayari"
+                },
+                {
+                    "name": "Moa",
+                    "id": "moa"
+                },
+                {
+                    "name": "Rafael Freyre",
+                    "id": "rafaelfreyre"
+                },
+                {
+                    "name": "Sagua de Tánamo",
+                    "id": "saguadetanamo"
+                },
+                {
+                    "name": "Urbano Noris",
+                    "id": "urbanonoris"
+                }
+            ],
+            "name": "Holguín",
+            "id": "holguin"
+        },
+        {
+            "name": "Santiago de Cuba",
+            "id": "santiagodecuba"
+        },
+        {
+            "name": "Guantánamo",
+            "id": "guantanamo"
+        }
+    ]
+}

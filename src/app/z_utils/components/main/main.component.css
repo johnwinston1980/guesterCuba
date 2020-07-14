@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.sender {
+    display: grid;
+    height: 150px;
+    align-items: center;
+    justify-items: center;
+    background-color: #533cf3;
+}
+
+.provider {
+    display: grid;
+    height: 150px;
+    align-items: center;
+    justify-items: center;
+    background-color: #00bb56;
+}
+
+.dispatcher {
+    display: grid;
+    height: 150px;
+    align-items: center;
+    justify-items: center;
+    background-color: #cd1af3;
+}
+
+label {
+    font-family: Irish;
+}

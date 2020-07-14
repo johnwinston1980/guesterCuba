@@ -1,0 +1,37 @@
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-self: center;
+    }
+    
+    .exchange {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        justify-self: center;
+        width: 250px;
+        margin-top: 15px;
+    }
+    
+    .exchange>mat-form-field {
+        margin: 5px;
+        max-width: 120px;
+    }
+    
+    button {
+        max-width: 250px;
+        min-width: 250px;
+        justify-self: center;
+        margin-top: 10px;
+    }
+    
+    mat-form-field {
+        width: 250px;
+        justify-self: center;
+    }

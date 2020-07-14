@@ -1,0 +1,15 @@
+<div class="container">
+    <table>
+        <tr *ngFor="let contact of contacts">
+            <th>
+                {{contact.name}}
+            </th>
+            <th>
+                <button type="button" (click)="redirect('add-transfer', contact)">Enviar transferencia</button>
+            </th>
+            <th>
+                <button type="button" (click)="redirect('add-contact', contact)">Editar contacto</button>
+            </th>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,19 @@
+<div class="container">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+        <mat-form-field>
+            <mat-label>Usuario</mat-label>
+            <input matInput formControlName="email" autofocus required>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Password</mat-label>
+            <input matInput formControlName="password" type="password" required>
+        </mat-form-field>
+
+
+        <button type="submit" mat-raised-button color="primary">Login</button>
+        <button type="button" mat-raised-button color="warn" (click)="register()">Registrar</button>
+        <button type="button" mat-raised-button color="warn" (click)="googleLogin()">Google Login</button>
+    </form>
+</div>

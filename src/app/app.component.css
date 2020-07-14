@@ -1,0 +1,27 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+mat-icon:active {
+    background-color: blue;
+    cursor: pointer;
+}
+
+a {
+    background-color: lightblue;
+}
+
+.drawer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+button {
+    margin: 5px;
+    height: 35px;
+}

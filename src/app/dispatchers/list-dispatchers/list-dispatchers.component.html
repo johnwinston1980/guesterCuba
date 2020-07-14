@@ -1,0 +1,38 @@
+<div class="container">
+
+    <div class="location">
+        <mat-form-field>
+            <mat-label>Provincia</mat-label>
+            <mat-select [(ngModel)]="provId" (selectionChange)="onChangeofProvince($event)">
+                <mat-option>--</mat-option>
+                <mat-option *ngFor="let province of provinces; let i = index" [ngValue]="province.name" [value]="province.id">
+                    {{province.name}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Municipio</mat-label>
+            <mat-select [(ngModel)]="municipioId" (selectionChange)="onChangeofMunicipio($event)">
+                <mat-option>--</mat-option>
+                <mat-option *ngFor="let town of towns" [value]="town.id">
+                    {{town.name}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+
+    <table matSort (matSortChange)="sortData($event)">
+        <tr>
+            <th mat-sort-header="email">Email</th>
+            <th mat-sort-header="exchangeRate">Cambio</th>
+        </tr>
+
+        <tr *ngFor="let dispatcher of sortedData" (click)="redirect(dispatcher)">
+            <td>{{dispatcher.email}}</td>
+            <td>{{dispatcher.exchangeRate}}</td>
+        </tr>
+    </table>
+
+
+</div>

@@ -1,0 +1,19 @@
+<div class="container">
+
+    <div class="sender" *ngIf="accessGuard.allowedRole('sender')" (click)="redirect('main-sender')">
+
+        <label>Envios</label>
+
+    </div>
+    <div class="provider" *ngIf="accessGuard.allowedRole('provider')" (click)="redirect('main-provider')">
+
+        <label>Opciones del proveedor</label>
+
+    </div>
+    <div class="dispatcher" *ngIf="accessGuard.allowedRole('dispatcher')" (click)="redirect('main-dispatcher')">
+
+        <label>Opciones del dispatcher</label>
+
+    </div>
+
+</div>
